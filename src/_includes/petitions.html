@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image:type" content="{{ taggg[0].tag }}">
+    <meta property="og:type" content="{{ taggg[1].tag }}">
+    <meta property="og:image" content="{{ taggg[2].tag }}">
+    <meta property="og:url" content="{{ taggg[3].tag }}">
+    <meta property="og:description" content="{{ taggg[5].tag }}">
+    <meta name="keywords" content="{{ taggg[6].tag }}">
+    <meta name="robots" content="{{ taggg[7].tag }}">
+    <meta name="language" content="{{ taggg[8].tag }}">
+    <meta name="twitter:card" content="{{ taggg[9].tag }}">
+    <meta property="twitter:site" content="{{ taggg[10].tag }}">
+    <meta property="twitter:title" content="{{ taggg[11].tag }}">
+    <meta property="twitter:description" content="{{ taggg[12].tag }}">
+    <meta property="twitter:image" content="{{ taggg[13].tag }}">
+    <meta property="twitter:image:alt" content="{{ taggg[14].tag }}">
+    <title>
+      {{title}}
+    </title>
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+    {% if prism == true %}
+      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
+    {% endif %}
+    <link rel="stylesheet" href="/static/css/petitions.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+ 
+  </head>
+  <body>
+    <div class="container max-w-4xl mt-6 px-6 post-body">
+      <div class="pb-5 mb-5 border-b border-gray-100">
+          <h1 class="font-bold text-5xl">{{title}}</h1>
+          <p class="text-center text-base leading-6 font-medium text-gray-500">
+              <time class="post-time">
+                  <!-- {% if date %}
+                  {{ date | readableDate }}
+                  {% endif %} -->
+                  {% if author %}
+                  by
+                  <a>{{ author }}</a>
+                  {% endif %}    
+              </time>
+          </p>
+  
+      </div>
+      <a class="case" href="mailto:{{ toEmail }}?subject={{ subject | replace(' ', '%20') }}&cc={{ cc }}&bcc={{ bcc }}&body={{ content | replace('\n', '%0A') | replace(' ', '%20') | replace('<p>', '') | replace('</p>', '')}}">
+        <button class="sign-btn">Sign ➔</button>
+      </a>
+      <article class="prose lg:prose-xl my-4 mx-auto">
+          <img src="{{ coverImage }}" alt="">
+          {{ content | safe }}</article>
+      <a class="case" href="mailto:{{ toEmail }}?subject={{ subject | replace(' ', '%20') }}&cc={{ cc }}&bcc={{ bcc }}&body={{ content | replace('\n', '%0A') | replace(' ', '%20') | replace('<p>', '') | replace('</p>', '')}}">
+            <button class="sign-btn">Sign ➔</button>
+      </a>
+  </div>
+  <h1></h1>
+    <script src="/static/js/alpine.js"></script>
+  </body>
+</html>

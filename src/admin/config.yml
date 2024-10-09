@@ -12,27 +12,25 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
+  - label: "Petitions"
+    name: "petitions"
+    folder: "src/petitions"
     create: true
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Due Date", name: "due", widget: "datetime"}
+      - { label: "Cover Image", name: "coverImage", widget: image}
+      - { label: "EmailIDs", name: "toEmail", widget: "string" }
+      - { label: "cc", name: "cc", widget: "string" }
+      - { label: "bcc", name: "bcc", widget: "string" }
+      - { label: "Subject", name: "subject", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
   - label: "Settings"
     name: "settings"
-    editor:
+    editor: 
       preview: false
     files:
       - label: "Navigation"
@@ -47,22 +45,15 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
+      - label: "Metadata"
+        name: "metadata"
+        file: "src/_data/metadata.yaml"
         fields:
-          - label: Nav Items
-            name: links
+          - label: Tags
+            name: tags
             widget: list
+            allow_add: true
             collapsed: false
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/settings.yaml"
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
+              - { label: Tag, name: tag, widget: string }
