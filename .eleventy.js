@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
     content = content.replace(/<br\s*\/?>/gi, '\n');
     
     // Replace </p> tags with two newline characters (for paragraph spacing)
-    content = content.replace(/<\/p>/gi, '\n\n');
+    content = content.replace(/<\/p>/gi, '\n');
     
     // Remove all remaining HTML tags
     content = content.replace(/<[^>]*>/g, '');
@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
     content = content.replace(/^\s+|\s+$/g, '');
     
     // Normalize line breaks
-    content = content.replace(/\n{3,}/g, '\n\n');
+    content = content.replace(/\n{3,}/g, '\n');
     
     return content;
   });
