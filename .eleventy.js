@@ -4,6 +4,25 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
+  // Strips HTML from a string
+  eleventyConfig.addFilter("stripHtml", function(content) {
+    // Replace <br> tags with newline characters
+    content = content.replace(/<br\s*\/?>/gi, '\n');
+    
+    // Replace </p> tags with two newline characters (for paragraph spacing)
+    content = content.replace(/<\/p>/gi, '\n\n');
+    
+    // Remove all remaining HTML tags
+    content = content.replace(/<[^>]*>/g, '');
+    
+    // Trim excess whitespace
+    content = content.replace(/^\s+|\s+$/g, '');
+    
+    // Normalize line breaks
+    content = content.replace(/\n{3,}/g, '\n\n');
+    
+    return content;
+  });
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy("./src/static/css");

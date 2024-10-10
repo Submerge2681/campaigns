@@ -19,7 +19,7 @@ layout: main
                 <p>{{ petition.data.description }}</p>
             </div>
             <div class="case">
-                <a href="mailto:{{ petition.data.toEmail }}?subject={{ petition.data.subject | replace(' ', '%20') }}&cc={{ petition.data.cc }}&bcc={{ petition.data.bcc }}&body={{ petition.templateContent | replace('\n', '%0A') | replace(' ', '%20') | replace('<p>', '') | replace('</p>', '')}}"><button class="sign-btn">Sign ➔</button></a>
+                <a href="mailto:{{ petition.data.toEmail }}?subject={{ petition.data.subject | replace(' ', '%20') }}&cc={{ petition.data.cc }}&bcc={{ petition.data.bcc }}&body={{ petition.templateContent | replace('\n', '%0A') | replace(' ', '%20') | stripHtml }}"><button class="sign-btn">Sign ➔</button></a>
             </div>
         </a>
     </article>
