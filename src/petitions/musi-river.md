@@ -10,7 +10,7 @@ subject: "Immediate Attention Required: Musi Riverfront Development Project!"
 ---
 
 ### To Whomsoever Concerned,
-<br><br>
+
 As a proud resident of Telangana and someone who is deeply committed to protecting our environment and the future of our communities, I feel compelled to address the serious concerns surrounding the ongoing Musi Riverfront Development Project. While the Congress-led government has initiated some positive actions, it is evident that critical issues are being overlooked, with potentially harmful consequences for both the environment and vulnerable communities.
 <br><br>
 ## Disregard for the Natural Flow

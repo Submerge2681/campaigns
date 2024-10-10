@@ -1,0 +1,3 @@
+<a class="case" href="mailto:{{ toEmail }}?subject={{ subject | replace(' ', '%20') }}&cc={{ cc }}&bcc={{ bcc }}&body={{ content | replace('\n', '%0A') | replace(' ', '%20') | stripHtml }}">
+    <button class="sign-btn">Sign ➔</button>
+</a>
