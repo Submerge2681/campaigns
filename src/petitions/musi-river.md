@@ -5,7 +5,7 @@ due: 2024-05-23T05:46:27.217Z
 coverImage: "/static/img/musi.jpg"
 toEmail: musi-project@telangana.gov.in
 cc: ""
-bcc: ""
+bcc: "musi.river.campaign@fridaysforfuture.in"
 subject: "Immediate Attention Required: Musi Riverfront Development Project!"
 ---
 
