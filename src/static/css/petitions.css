@@ -5,6 +5,18 @@
     display: none;
   }
 
+article > p{
+    font-size: 12pt;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    margin: 0 !important;
+  }
+article > h4{
+    font-size: 12pt;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    margin: 0 !important;
+  }
 img{
   margin: 0 auto;
   }
