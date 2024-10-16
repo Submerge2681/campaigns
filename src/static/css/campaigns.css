@@ -4,9 +4,15 @@
 *::-webkit-scrollbar-button {
     display: none;
   }
+  .logo{
+    margin-top: 1rem;
+    max-width: 100px;
+    background-color: #1A723E;
+    border-radius: 100%;
+  }
 .top-containter{
-  margin-top: 5rem;
-}
+  margin-top: 2rem;
+  }
 .petition-articles{
     display: flex;
      flex-direction: row;
