@@ -11,8 +11,10 @@
   }
   .logo{
     margin-top: 1rem;
-    max-width: 100px;
-    background-color: #1A723E;
+    max-width: 150px;
+    filter: saturate(0%);
+    filter: invert(1);
+    /* background-color: #1A723E; */
     border-radius: 100%;
   }
 .top-containter{
