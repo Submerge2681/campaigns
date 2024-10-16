@@ -4,6 +4,11 @@
 *::-webkit-scrollbar-button {
     display: none;
   }
+.logo-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logo{
     margin-top: 1rem;
     max-width: 100px;
