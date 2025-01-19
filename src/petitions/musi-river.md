@@ -9,22 +9,29 @@ bcc: "musi.river.campaign@fridaysforfuture.in"
 subject: "Immediate Attention Required: Musi Riverfront Development Project!"
 ---
 
-##### To Whomsoever Concerned,
+<h3 style="text-align: left; font-family: 'Arial'; color: #6893DE">Reclaiming the Musi:</h3>
+<h3 style="text-align: left; font-family: 'Arial'; color: #9DBDC4; font-size: 24px"><em>A Call for Justice, Ecology, and Inclusivity</em></h3>
 
-As a proud resident of Telangana and someone who is deeply committed to protecting our environment and the future of our communities, I feel compelled to address the serious concerns surrounding the ongoing Musi Riverfront Development Project. While the Congress-led government has initiated some positive actions, it is evident that critical issues are being overlooked, with potentially harmful consequences for both the environment and vulnerable communities.
-<br><br>
-#### Disregard for the Natural Flow
-The project is disrupting the natural flow of the Musi River, increasing the risk of flooding, particularly with rising water levels due to climate change. Recent reports have highlighted dangerous water levels during heavy rains, creating flood-like conditions. **What concrete steps are being taken to mitigate these risks?**
-<br><br>
-#### Displacement of Vulnerable Communities
-Displaced families are being forced into 2BHK units with rents of ₹8,000-9,000 per month, an amount many cannot afford. This is worsening their financial burdens. **How will the government ensure that these families are provided with fair, affordable housing options that don’t push them further into poverty?**
-<br><br>
-#### Impact on 60+ Villages
-More than 60 villages from Ananthagiri to Hyderabad depend on the Musi River for agriculture and daily livelihood. Altering the river’s natural course will devastate these communities, impacting their livelihoods and forcing potential displacement. **What is being done to safeguard their futures?**
-<br><br>
-Furthermore, cleaning the Musi River should be about restoring the ecosystem and creating a healthier environment, not about profit-driven motives. This should be a project that respects the river's natural flow and the communities around it. Done correctly, this could offer a healthier, cleaner environment for future generations while positioning Telangana as a leader in sustainability and quality of life.
-<br><br>
-It’s time for the government to step up with real action. I strongly urge you to provide a detailed plan that demonstrates how this project will balance environmental sustainability with the needs of the people and prevent further damage. Vague promises are no longer enough—transparent and accountable action is required now.
-<br><br>
-Regards,  
-A Concerned Citizen
+The Musi River is not just a lifeline for Telangana but a symbol of Hyderabad's rich heritage and the livelihoods of communities across its banks. However, the Musi Riverfront Development Project hurriedly floated by the Government of Telangana has raised grave concerns, as it advances without consultation with those most affected—residents of the riverbed, downstream farmers, and vulnerable urban communities. The absence of transparency and stakeholder engagement reflects a failure of democratic governance and ecological justice.
+
+<h3 style="font-size: 16px">Ecological Crisis and the Disruption of Livelihoods</h3>
+
+The Musi, plagued by untreated sewage and industrial effluents, cries for genuine rejuvenation—not commodification. Nearly 60% of the river's inflow consists of untreated sewage​. Without addressing this, the project risks perpetuating environmental degradation. Additionally, altering the river’s natural flow jeopardizes downstream villages, affecting over 60 communities that depend on it for agriculture and daily sustenance​.
+
+<h3 style="font-size: 16px">Forced Displacement and Inadequate Rehabilitation</h3>
+
+Families residing in the riverbed are being forcibly relocated to substandard 2BHK units without adequate compensation, transparency, or consultation. Many of these units lack basic amenities such as water access, functional infrastructure, and secure ownership rights​. Tenants, waste-pickers, and other marginalized groups have been excluded from rehabilitation altogether, exacerbating their vulnerability. Arbitrary eviction markings, such as RB-X designations, have displaced families living far from the riverbed without just cause​.
+
+<h3 style="font-size: 16px">Questionable Priorities and Urban Commons</h3>
+
+The government has focused on commercial ventures, such as theme parks and tourism hubs, under the guise of river rejuvenation​. These priorities reflect a commodification of urban commons, sidelining the river’s ecological health and the rights of its people. While ₹4,000 crore is being allocated for Sewage Treatment Plants (STPs), a staggering gap remains, leaving 26% of Hyderabad without a sewage network​. This approach highlights the government’s misplaced priorities, which favor only a section of the population such as urban elites at the expense of the river's health and its dependents.
+
+Fridays for Future India demands that the Musi River’s future must be anchored in democratic, ecological, and social justice principles:
+<ol>
+<li><b>Genuine Consultation:</b> Ensure free, prior, and informed consent of all affected communities.</li>
+<li><b>Ecological Restoration:</b> Prioritize pollution control and the river’s free flow over commercialization.</li>
+<li><b>Inclusive Rehabilitation:</b> Implement transparent policies for dignified housing and livelihood restoration for all displaced residents.</li>
+<li><b>Sustainable Development:</b> Invest in decentralized waste management and comprehensive water governance.</li>
+</ol>
+
+The Musi River is a shared heritage, and its rejuvenation must reflect the needs of all its stakeholders—not just a privileged few. We stand united to demand a people-centered, ecologically just approach to reclaiming the Musi.
